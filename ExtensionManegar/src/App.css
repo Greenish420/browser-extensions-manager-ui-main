@@ -1,0 +1,52 @@
+@media (max-width: 600px){
+  .header1{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+
+
+}  
+
+
+
+
+*{
+ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  background: linear-gradient(to bottom, #09153e,#212636);
+}
+
+.header1{
+ width: 100%; display: flex; justify-content : space-between; align-items: center ; flex-direction: row;
+}
+
+.Remove{
+
+  font-size: 0.75em; 
+  border-radius: 15px;
+  background-color: #1b1f2d;
+}
+
+.Remove:hover{
+  background-color: red;
+  border: none;
+}
+
+
+
+
+
+   
